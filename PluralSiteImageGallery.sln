@@ -3,7 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGallery.Client", "ImageGallery.Client\ImageGallery.Client.csproj", "{DA511E99-8F2C-4985-B3D3-3645E8B64C97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{291B3230-42B7-463F-A0D2-4AE2DE1731B8} = {291B3230-42B7-463F-A0D2-4AE2DE1731B8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGallery.Model", "ImageGallery.Model\ImageGallery.Model.csproj", "{291B3230-42B7-463F-A0D2-4AE2DE1731B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5883AACF-9F50-4511-BEC6-D9C88DF80D78}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGallery.API", "ImageGallery.API\ImageGallery.API.csproj", "{D29B1F10-6703-45FD-BD1D-E1B6BA433D81}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA511E99-8F2C-4985-B3D3-3645E8B64C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA511E99-8F2C-4985-B3D3-3645E8B64C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA511E99-8F2C-4985-B3D3-3645E8B64C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA511E99-8F2C-4985-B3D3-3645E8B64C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291B3230-42B7-463F-A0D2-4AE2DE1731B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291B3230-42B7-463F-A0D2-4AE2DE1731B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291B3230-42B7-463F-A0D2-4AE2DE1731B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291B3230-42B7-463F-A0D2-4AE2DE1731B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29B1F10-6703-45FD-BD1D-E1B6BA433D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29B1F10-6703-45FD-BD1D-E1B6BA433D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29B1F10-6703-45FD-BD1D-E1B6BA433D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29B1F10-6703-45FD-BD1D-E1B6BA433D81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
